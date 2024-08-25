@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white; /* Adiciona cor ao texto para contraste com o fundo preto */
+    text-align: center;
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.ft {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Faz com que a imagem se ajuste ao tamanho da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Consultas de mídia para dispositivos menores */
+@media (max-width: 768px) {
+    .ft {
+        max-width: 90%; /* Ajusta a largura da imagem em dispositivos menores */
+    }
+}

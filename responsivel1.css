@@ -1,0 +1,55 @@
+/* style.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Imagem responsiva */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Botões */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sim {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#nao {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Consultas de mídia para telas menores */
+@media (max-width: 768px) {
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
